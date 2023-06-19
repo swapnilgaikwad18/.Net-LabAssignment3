@@ -22,9 +22,9 @@ namespace Collection_Question2
 
             List<Employee> empList = new List<Employee>();
 
+            Console.WriteLine($"Details of all employees: ");
             foreach (Employee emp in empArr)
             {
-                Console.WriteLine($"Details of all employees: ");
                 Console.WriteLine($"Employee Name: {emp.EmpId}");
                 Console.WriteLine($"Employee Name: {emp.Name}");
                 Console.WriteLine($"Employee Salary: {emp.Salary}");
