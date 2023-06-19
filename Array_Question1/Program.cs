@@ -8,7 +8,6 @@ namespace Array_Question1
 {
     internal class Program
     {
-       
         static void Main()
         {
             Console.WriteLine("Enter the number of batches: ");
@@ -16,6 +15,7 @@ namespace Array_Question1
             
             int[][] arr = new int[noOfBatches][];
 
+            //insert marks
             for(int i = 0; i < noOfBatches; i++)
             {
                 Console.WriteLine($"Enter number of students in batch{i+1}: ");
@@ -32,6 +32,7 @@ namespace Array_Question1
 
             Console.WriteLine();
 
+            //display marks
             for(int i = 0; i < noOfBatches; i++)
             {
                 Console.WriteLine($"batch{i}: ");
